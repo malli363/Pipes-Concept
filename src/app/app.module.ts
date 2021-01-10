@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ReversePipe } from './reverse.pipe';
+import { TestpipePipe } from './testpipe.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReversePipe,
+    TestpipePipe
   ],
   imports: [
     BrowserModule,

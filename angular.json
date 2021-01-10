@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "PipesEx"
+  "defaultProject": "PipesEx",
+  "cli": {
+    "analytics": "bce793fc-19d3-4598-9c4f-8501455177e2"
+  }
 }
